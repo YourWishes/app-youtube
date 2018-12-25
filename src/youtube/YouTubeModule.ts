@@ -24,7 +24,7 @@
 import { Module } from '@yourwishes/app-base';
 import { IYouTubeApp } from './../app/';
 import { YouTube } from 'better-youtube-api';
-
+ 
 const CONFIG_API_KEY = 'youtube.api';
 
 export class YouTubeModule extends Module {
