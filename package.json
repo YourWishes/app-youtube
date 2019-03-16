@@ -1,12 +1,10 @@
 {
   "name": "@yourwishes/app-youtube",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "description": "YouTube Module for use with my App Framework.",
   "main": "dist/index.js",
   "scripts": {
     "test": "jest",
-    "start": "npm run build:live",
-    "build:live": "nodemon --watch \"src/**/*.ts\" --exec \"ts-node\" src/index.ts",
     "build": "tsc -p ."
   },
   "repository": {
@@ -28,16 +26,16 @@
   "homepage": "https://github.com/YourWishes/app-youtube#readme",
   "devDependencies": {
     "@types/jest": "^23.3.10",
-    "@types/node": "^10.12.12",
+    "@types/node": "^9.6.46",
     "@types/node-cache": "^4.1.1",
     "jest": "^23.6.0",
     "nodemon": "^1.18.8",
     "ts-jest": "^23.10.5",
     "ts-node": "^7.0.1",
-    "typescript": "^3.2.2"
+    "typescript": "^3.2.4"
   },
   "dependencies": {
-    "@yourwishes/app-base": "^1.1.1",
+    "@yourwishes/app-base": "^2.0.0",
     "better-youtube-api": "^0.3.6"
   }
 }
